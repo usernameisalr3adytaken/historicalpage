@@ -18,10 +18,10 @@ a{text-decoration: none; color: inherit;}
     color: #faf0e6;
     display: none;
     position: fixed;
-    height: 400px;
-    width: 50%;
+    height: 380px;
+    width: 60%;
     border: solid;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 10%;
 }
 
