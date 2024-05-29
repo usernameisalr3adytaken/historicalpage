@@ -18,7 +18,7 @@ a{text-decoration: none; color: inherit;}
     color: #faf0e6;
     display: none;
     position: fixed;
-    height: 360px;
+    height: 380px;
     width: 50%;
     border: solid;
     margin-left: 25%;
@@ -39,11 +39,11 @@ a{text-decoration: none; color: inherit;}
 .clicker {
     margin-top: 8px;
     text-align: center;
-    color: #e8e1db; /* Цвет обычной ссылки */
+    color: #e8e1db; /* Г–ГўГҐГІ Г®ГЎГ»Г·Г­Г®Г© Г±Г±Г»Г«ГЄГЁ */
     background: inherit;
     position: relative;
     cursor: pointer;
-    text-decoration: none; /* Убираем подчеркивание */
+    text-decoration: none; /* Г“ГЎГЁГ°Г ГҐГ¬ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГҐ */
     border: none;
     font-size: 20px;
 }
@@ -55,9 +55,9 @@ a{text-decoration: none; color: inherit;}
         right: 25%;
         bottom: -3px;
         width: 0;
-        height: 2px; /* Высота линии */
-        background-color: black; /* Цвет подчеркивания при исчезании линии*/
-        transition: width 0.5s; /* Время эффекта */
+        height: 2px; /* Г‚Г»Г±Г®ГІГ  Г«ГЁГ­ГЁГЁ */
+        background-color: black; /* Г–ГўГҐГІ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГї ГЇГ°ГЁ ГЁГ±Г·ГҐГ§Г Г­ГЁГЁ Г«ГЁГ­ГЁГЁ*/
+        transition: width 0.5s; /* Г‚Г°ГҐГ¬Гї ГЅГґГґГҐГЄГІГ  */
     }
 
     .clicker:hover:after {
@@ -67,9 +67,9 @@ a{text-decoration: none; color: inherit;}
         position: absolute;
         left: 25%;
         bottom: -3px;
-        height: 2px; /* Высота линии */
-        background-color: #e0e0e0; /* Цвет подчеркивания при появлении линии*/
-        transition: width 0.5s; /* Время эффекта */
+        height: 2px; /* Г‚Г»Г±Г®ГІГ  Г«ГЁГ­ГЁГЁ */
+        background-color: #e0e0e0; /* Г–ГўГҐГІ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГї ГЇГ°ГЁ ГЇГ®ГїГўГ«ГҐГ­ГЁГЁ Г«ГЁГ­ГЁГЁ*/
+        transition: width 0.5s; /* Г‚Г°ГҐГ¬Гї ГЅГґГґГҐГЄГІГ  */
     }
 
 details {
@@ -96,9 +96,9 @@ summary {
         right: 0;
         bottom: -3px;
         width: 0;
-        height: 2px; /* Высота линии */
-        background-color: black; /* Цвет подчеркивания при исчезании линии*/
-        transition: width 0.5s; /* Время эффекта */
+        height: 2px; /* Г‚Г»Г±Г®ГІГ  Г«ГЁГ­ГЁГЁ */
+        background-color: black; /* Г–ГўГҐГІ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГї ГЇГ°ГЁ ГЁГ±Г·ГҐГ§Г Г­ГЁГЁ Г«ГЁГ­ГЁГЁ*/
+        transition: width 0.5s; /* Г‚Г°ГҐГ¬Гї ГЅГґГґГҐГЄГІГ  */
     }
     summary:hover:after {
         content: "";
@@ -107,9 +107,9 @@ summary {
         position: absolute;
         left: 0;
         bottom: -3px;
-        height: 2px; /* Высота линии */
-        background-color: #e8e1db; /* Цвет подчеркивания при появлении линии*/
-        transition: width 0.5s; /* Время эффекта */
+        height: 2px; /* Г‚Г»Г±Г®ГІГ  Г«ГЁГ­ГЁГЁ */
+        background-color: #e8e1db; /* Г–ГўГҐГІ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГї ГЇГ°ГЁ ГЇГ®ГїГўГ«ГҐГ­ГЁГЁ Г«ГЁГ­ГЁГЁ*/
+        transition: width 0.5s; /* Г‚Г°ГҐГ¬Гї ГЅГґГґГҐГЄГІГ  */
     }
 
     summary:before {
@@ -131,8 +131,8 @@ summary {
     border-color: #1d1f21;
     color: #faf0e6;
 }
-    .spisok::-webkit-scrollbar { width: 10px; /* Ширина всего элемента навигации */ }
-    .spisok::-webkit-scrollbar-track { background: inherit; /* Цвет дорожки */ }
+    .spisok::-webkit-scrollbar { width: 10px; /* ГГЁГ°ГЁГ­Г  ГўГ±ГҐГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ  Г­Г ГўГЁГЈГ Г¶ГЁГЁ */ }
+    .spisok::-webkit-scrollbar-track { background: inherit; /* Г–ГўГҐГІ Г¤Г®Г°Г®Г¦ГЄГЁ */ }
     .spisok::-webkit-scrollbar-thumb {
         background: #333;
         border-radius: 20px;
